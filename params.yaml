@@ -2,7 +2,7 @@ AUGMENTATION : TRUE
 IMAGE_SIZE : [224, 224, 3] # AS PER VG16 MODAL
 BATCH_SIZE : 16
 INCLUDE_TOP : False
-EPOCS : 1
+EPOCHS : 1
 CLASSES : 2  #No OF Data Folder to verify fro as here we have only 2 Class Normal and Tumor
 WEIGHTS : imagenet
 LEARNING_RATE : 0.01
